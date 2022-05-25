@@ -1,0 +1,50 @@
+name: homework
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  awesome_dialog: ^2.1.1
+  pull_to_refresh: ^2.0.0
+  palette_generator: ^0.3.1
+  card_swiper: ^1.0.4
+  delayed_display: ^2.0.0
+  http: ^0.13.2
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/image.jpeg
+    - assets/images/homew.jpeg
+    - assets/images/yacht.png
+  
+  fonts:
+    - family: Bonheur Royale
+      fonts:
+        - asset: assets/fonts/BonheurRoyale-Regular.ttf
+    - family: Satisfy
+      fonts:
+        - asset: assets/fonts/Satisfy-Regular.ttf
+    - family: Akronim
+      fonts:
+        - asset: assets/fonts/Akronim-Regular.ttf
+  
